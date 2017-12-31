@@ -2,8 +2,10 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
 import Graph from './Graph'
+// const Graph = () => <div>Graph</div>
 import TranslatedBlock from '../utils/TranslatedBlock'
-import ProjectTable from './ProjectTable/ProjectTable'
+// import comments from '../../i18n/categories'
+import ProjectTable from './ProjectTable'
 
 function graphFactory({ projects, entities, locale, translations }) {
   return {
@@ -36,7 +38,7 @@ function graphFactory({ projects, entities, locale, translations }) {
                       height={height}
                     />
                     */}
-                    <ProjectTable projects={graphProjects.slice(0, 20)} />
+                    <ProjectTable tagKey={key} projects={graphProjects.slice(0, 20)} />
                   </div>
                   <div className="tag-card-column-2">
                     <div className="tag-card-comments markdown-body">
