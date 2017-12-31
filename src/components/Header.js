@@ -7,8 +7,7 @@ import BestofjsLogo from './BestofjsLogo'
 const items = [
   { code: 'en', text: 'English' },
   { code: 'zh', text: '中文' },
-  { code: 'ja', text: '日本語' },
-  { code: 'fr', text: 'Français' }
+  { code: 'ja', text: '日本語' }
 ]
 
 const Header = ({ language, year }) => (
