@@ -1,8 +1,6 @@
 const path = require('path')
 const flatten = require('lodash.flatten')
 
-const settings = require('./data/settings.json')
-
 exports.onCreateNode = async ({
   node,
   boundActionCreators,
@@ -40,9 +38,12 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
     })
   }
-
+  const pages = [
+    { year: 2016, languages: ['en', 'ja', 'zh'] },
+    { year: 2017, languages: ['en', 'ja', 'zh', 'fr'] }
+  ]
   const allYearLanguageCombinations = flatten(
-    settings.map(item =>
+    pages.map(item =>
       item.languages.map(language => ({
         language,
         year: item.year

@@ -23,11 +23,17 @@
 
 #logo {
   flex-grow: 1;
-  display: none;
-  /* Make the logo smaller on small screens */
-  @media (min-width: 400px) {
+  img {
     display: block;
-    width: 120px;
+  }
+  /* Make the logo smaller on small screens */
+  @media (max-width: 450px) {
+    img {
+      width: 120px;
+    }
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
@@ -44,5 +50,9 @@
   &.is-active {
     background-color: #cc4700;
     color: white;
+    /* Hide the current language on very small screens */
+    @media (max-width: 360px) {
+      display: none;
+    }
   }
 }
