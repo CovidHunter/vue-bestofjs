@@ -10,11 +10,9 @@ const defaultYear = 2017
 const defaultLanguage = 'en'
 
 function buildURL({ year, language, pathPrefix }) {
-  const prependSlash = url => (url.slice(0, 1) === '/' ? '' : `/${url}`)
-  const url = [pathPrefix ? pathPrefix : '', year, language]
+  return [pathPrefix ? pathPrefix : '/', year, language]
     .filter(item => !!item)
     .join('/')
-  return prependSlash(url)
 }
 
 function createAllRedirectPages() {
