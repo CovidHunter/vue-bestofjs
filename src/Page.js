@@ -45,12 +45,13 @@ class Page extends React.Component {
           ]}
           htmlAttributes={{ lang: intl.locale }}
           bodyAttributes={{ class: `year${year}` }}
-        />
-        <link rel="shortcut icon" href="/img/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700"
-          rel="stylesheet"
-        />
+        >
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i|Roboto+Slab:300,400,700"
+            rel="stylesheet"
+          />
+        </Helmet>
         {false && <BgPicture projects={projects.all} />}
         <Header
           language={intl.locale}
@@ -73,7 +74,7 @@ class Page extends React.Component {
               translations={translations}
               categories={categories}
             />
-            <Newsletter/>
+            <Newsletter intl={intl} />
             <TOC
               projects={projects}
               entities={entities}
@@ -84,8 +85,8 @@ class Page extends React.Component {
             />
             {categories.map((item, i) => (
               <Category
-                key={item.tag}
-                tag={item.tag}
+                key={item.key}
+                tag={item.key}
                 number={i + 1}
                 title={item.title}
                 excluded={item.excluded}

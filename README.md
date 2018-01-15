@@ -1,8 +1,8 @@
-# JavaScript Rising Stars (Work in Progress)
+# JavaScript Rising Stars
 
 A complete overview of the JavaScript landscape in 2017: trends about front-end and node.js frameworks, tooling...
 
-Soon available in English, Japanese and Chinese.
+Available in English, Japanese, Chinese and French.
 
 ![image](https://user-images.githubusercontent.com/5546996/34452534-0c525f68-ed85-11e7-8d52-647fafffea15.png)
 
@@ -14,6 +14,7 @@ Soon available in English, Japanese and Chinese.
 * [Nobuhiro Uchiyama](https://github.com/azukiwasher)
 * [Frank Xu](https://github.com/frankyxhl)
 * [Shigeto Yatani](https://www.facebook.com/vanxx2)
+* [王仕军](https://github.com/wangshijun)
 
 ## How to contribute?
 
@@ -43,46 +44,6 @@ i18n
 │   │   │   ├── en.md
 │   │   │   ├── ja.md
 │   │   │   └── zh.md
-│   │   ├── css-in-js
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── framework
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── graphql
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── ide
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── mobile
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── nodejs-framework
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── react
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── ssg
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   ├── test-framework
-│   │   │   ├── en.md
-│   │   │   ├── ja.md
-│   │   │   └── zh.md
-│   │   └── vue
-│   │       ├── en.md
-│   │       ├── ja.md
-│   │       └── zh.md
 │   ├── conclusion
 │   │   ├── en.md
 │   │   ├── ja.md
