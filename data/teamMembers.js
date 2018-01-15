@@ -41,7 +41,7 @@ const team = [
     ),
     role: 'translation',
     language: 'zh',
-    years: [2016, 2017]
+    years: [2016]
   },
   {
     name: 'Frank Xu',
@@ -78,19 +78,6 @@ const team = [
     ),
     role: 'author',
     years: [2016, 2017]
-  },
-  {
-    name: 'Javier Valencia',
-    url: 'http://www.jvalen.com',
-    avatar: 'https://avatars1.githubusercontent.com/u/4639830?v=3&s=75',
-    bio1: (
-      <span>
-        Creator of <a href="https://www.pixelartcss.com/">Pixel Art React</a>
-      </span>
-    ),
-    role: 'translation',
-    language: 'es',
-    years: [2017]
   }
 ]
 

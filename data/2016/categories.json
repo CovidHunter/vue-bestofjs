@@ -1,6 +1,6 @@
 [
   {
-    "key": "all",
+    "tag": "all",
     "excluded": [
       "awesome",
       "you-dont-know-js",
@@ -10,39 +10,39 @@
     "count": 10
   },
   {
-    "key": "framework",
+    "tag": "framework",
     "count": 15
   },
   {
-    "key": "nodejs-framework",
+    "tag": "nodejs-framework",
     "count": 10
   },
   {
-    "key": "react",
+    "tag": "react",
     "count": 10,
     "excluded": ["react"]
   },
   {
-    "key": "mobile",
+    "tag": "mobile",
     "count": 3
   },
   {
-    "key": "compiler",
+    "tag": "compiler",
     "count": 10
   },
   {
-    "key": "build"
+    "tag": "build"
   },
   {
-    "key": "test-framework",
+    "tag": "test-framework",
     "count": 5
   },
   {
-    "key": "ide",
+    "tag": "ide",
     "count": 5
   },
   {
-    "key": "ssg",
+    "tag": "ssg",
     "count": 5
   }
 ]

@@ -21,7 +21,7 @@ categories:
   compiler: 'Compilateurs JavaScript'
   build: 'Outils de construction'
   testframework: 'Frameworks de test'
-  ide: 'Editeurs de texte'
+  ide: 'Editeurs de text'
   ssg: 'Générateurs de Site Statique'
   cssinjs: 'Feuilles de style en JavaScript'
   graphql: 'GraphQL'

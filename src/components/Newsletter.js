@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
-const Newsletter = ({ intl }) => (
+const Newsletter = () => (
   <div className="newsletter container container-section small-container markdown-body">
     <h3>
       <FormattedMessage
@@ -11,7 +11,7 @@ const Newsletter = ({ intl }) => (
     </h3>
     <p>
       <FormattedMessage
-        id="common.newsletter.text"
+        id="common.newsletter.signup"
         defaultMessage={`Sign up for {link}'s newsletter, and...`}
         values={{
           link: <a href="https://bestof.js.org/">bestof.js.org</a>
@@ -30,27 +30,19 @@ const Newsletter = ({ intl }) => (
       >
         <input
           type="email"
-          placeholder={intl.formatMessage({
-            id: 'common.newsletter.placeholder',
-            defaultMessage: 'Your Email'
-          })}
+          placeholder="Your email"
           name="EMAIL"
           className="required email"
           id="mce-EMAIL"
         />
-        <button
+        <input
           className="button"
           type="submit"
           value="Sign Up"
           name="subscribe"
           id="mc-embedded-subscribe"
           className="button"
-        >
-          <FormattedMessage
-            id="common.newsletter.button"
-            defaultMessage={`Sign Up`}
-          />
-        </button>
+        />
       </form>
     </div>
   </div>
