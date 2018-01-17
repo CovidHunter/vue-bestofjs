@@ -37,7 +37,6 @@ const Category = ({
                 tagKey={key}
                 projects={graphProjects}
                 year={year}
-                showBlurb={tag !== 'misc'}
                 currentYear={currentYear}
                 intl={intl}
               />
