@@ -1,5 +1,5 @@
-スペシャルゲスト: [Evan You](https://twitter.com/youyuxi)
+Guest Writer: [Evan You](https://twitter.com/youyuxi)
 
-Vue.js の良さは分かっているつもりですが、その良さが何に起因しているのかまでは正直よく理解できていないのかもしれません。
+As much as we admire Vue.js, we have to admit we're not that familiar with its ecosystem.
 
-そこで専門家の意見を仰ごうというわけなのですが、Vue.js のクリエイターご本人に勝る適任者がいるのかと思い至ったのです。
+That's why we looked for an expert to give us their opinion on this year's stats, and who better than the creator of Vue.js himself?
