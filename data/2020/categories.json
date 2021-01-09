@@ -23,13 +23,12 @@
   {
     "key": "vue",
     "count": 10,
-    "excluded": ["vuejs", "storybook"],
-    "guest": "atinux"
+    "excluded": ["vuejs", "storybook"]
   },
   {
     "key": "angular",
     "count": 10,
-    "excluded": ["angular", "angular-1", "storybook", "nativescript", "ionic", "tsparticles", "carbon-design-system"],
+    "excluded": ["angular", "angular-1", "storybook", "nativescript"],
     "guest": "bblackwo"
   },
   {
@@ -74,7 +73,6 @@
   {
     "key": "graphql",
     "count": 10,
-    "excluded": ["react-query"],
     "disabled": false,
     "availableComments": []
   },
